@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gravity Dots</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <style>
+        body { overflow: hidden; }
+        .topbar {
+          position: fixed;
+          left: 12px;
+          top: 12px;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          z-index: 10;
+        }
+        .btn {
+          padding: 8px 12px;
+          border-radius: 10px;
+          border: 1px solid var(--border);
+          background: var(--card);
+          color: var(--fg);
+          text-decoration: none;
+          font-size: 14px;
+        }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+<div class="topbar">
+    <a class="btn" href="/">← Home</a>
+    <span style="color: var(--muted)">Click to spawn dots • Drag to pull</span>
+</div>
+
+<canvas id="c"></canvas>
+<script src="./app.js"></script>
+</body>
+</html>
