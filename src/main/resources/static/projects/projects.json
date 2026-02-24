@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "Gravity",
+    "title": "Gravity Dots",
+    "desc":  "Click to spawn dots. Drag to pull."
+  },
+  {
+    "slug": "particles",
+    "title": "Particle Fountain",
+    "desc": "A smooth particle stream with trails."
+  }
+]
