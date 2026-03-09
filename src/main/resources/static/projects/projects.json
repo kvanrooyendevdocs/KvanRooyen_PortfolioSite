@@ -1,12 +1,16 @@
 [
   {
-    "slug": "Gravity",
+    "slug": "gravity",
     "title": "Gravity Dots",
-    "desc":  "Click to spawn dots. Drag to pull."
+    "desc": "Click to spawn dots and drag to pull them with a gravity field.",
+    "tag": "Physics",
+    "featured": true
   },
   {
     "slug": "particles",
     "title": "Particle Fountain",
-    "desc": "A smooth particle stream with trails."
+    "desc": "A flowing particle simulation that responds to mouse movement.",
+    "tag": "Animation",
+    "featured": true
   }
 ]

@@ -3,8 +3,10 @@ async function loadProjects() {
   const projects = await res.json();
 
   const grid = document.getElementById("projectsGrid");
+
   grid.innerHTML = projects.map(p => `
     <a class="card" href="/projects/${p.slug}/index.html">
+     <span class="tag">${p.tag ?? ""}</span>
       <h2>${p.title}</h2>
       <p>${p.desc}</p>
     </a>
