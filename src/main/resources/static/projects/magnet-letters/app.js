@@ -45,7 +45,7 @@ function createLetters() {
     letters.push({
     //what do draw
       char: char,
-      current pos
+     // current pos
       x: startX + i * spacing,
       y: y,
       //home pos / base pos
