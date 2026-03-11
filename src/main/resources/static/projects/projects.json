@@ -12,5 +12,13 @@
     "desc": "A flowing particle simulation that responds to mouse movement.",
     "tag": "Animation",
     "featured": true
+  },
+  {
+    "slug": "magnet-letters",
+    "title": "Magnet Letters",
+    "desc": "Letters react to the mouse like a magnetic field.",
+    "tag": "Interaction",
+    "featured": true
   }
+
 ]
